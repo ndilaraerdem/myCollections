@@ -12,7 +12,7 @@ public class Main {
         myList.add("İstanbul");
         System.out.println(myList.size());//2
 
-        for (Object item : myList.items()) {
+        for (String item : myList.items()) {
             System.out.println(item);//Ankara İzmir
         }
 

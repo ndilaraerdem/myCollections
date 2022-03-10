@@ -28,8 +28,8 @@ public class MyArrayList<T> {
         return myList.length;
     }
 
-    public Object[] items() {
-        return myList;
+    public T[] items() {
+        return (T[])myList;
     }
 
 }
